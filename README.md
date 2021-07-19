@@ -48,4 +48,6 @@ With fix from [here](https://help.nextcloud.com/t/nextcloud-docker-redirects-to-
 
 ```
 vim nextcloud/config/config.php
++  'overwritehost'     => 'yourdomain.tld',
++  'overwriteprotocol' => 'https',
 ```
